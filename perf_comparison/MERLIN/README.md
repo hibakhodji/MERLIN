@@ -1,10 +1,8 @@
-Internship By Lucille Herbay:
+yolo_interpreter.py (Internship) By Lucille Herbay:
 
 Date:
 9/11/2021 au 3/12/2021
 
-
--> yolo_interpreter.py:
 
 Notebook en python qui permet deux choses:
 - Dans un premier temps passer d'une sortie YOLO (positions d'erreur prédites en pixel) à une sortie plus SIBIS like (avec des positions d'erreur par numéro de colones)
