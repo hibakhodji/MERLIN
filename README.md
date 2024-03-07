@@ -5,3 +5,5 @@ Necessary codes and scripts for our MERLIN paper: https://link.springer.com/chap
 * to predict on multiple images, use: ./darknet detector test data/obj.data yolov4-custom.cfg merlin_weights/yolov4-custom_best.weights -dont_show -ext_output < data/images.txt > multiple_predictions.txt
 * PRIMATES images can be found in data/train.txt, data/valid.txt, and data/test.txt and retrieved from https://zenodo.org/records/6637475#.ZCV9ai0RppQ
 * BALIBASE images can be found in darknet/data/obj/balibase/
+
+to git clone this rep make sure Git Large File Storage is properly installed
