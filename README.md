@@ -7,3 +7,5 @@ Necessary codes and scripts for our MERLIN paper: https://link.springer.com/chap
 * to predict on multiple images, use: ./darknet detector test obj.data config/yolov4-custom.cfg weights/yolov4-custom_best.weights -dont_show -ext_output < data/images.txt > multiple_predictions.txt
 
 For more trained weights, predictions results, and BALIBASE data: https://gitlab.unistra.fr/khodji/merlin
+
+to git clone this rep make sure Git Large File Storage is properly installed
