@@ -1,0 +1,34 @@
+[yolo] params: iou loss: ciou (4), iou_norm: 0.07, obj_norm: 1.00, cls_norm: 1.00, delta_norm: 1.00, scale_x_y: 1.05
+nms_kind: greedynms (1), beta = 0.600000 
+Total BFLOPS 229.891 
+avg_outputs = 1781936 
+ Allocate additional workspace_size = 52.44 MB 
+Loading weights from ./backup/yolov4-custom_final.weights...
+ seen 64, trained: 896 K-images (14 Kilo-batches_64) 
+Done! Loaded 162 layers from weights-file 
+
+ calculation mAP (mean average precision)...
+ Detection layer: 139 - type = 28 
+ Detection layer: 150 - type = 28 
+ Detection layer: 161 - type = 28 
+1224
+ detections_count = 13392, unique_truth_count = 3378  
+class_id = 0, name = SEQ_ERROR3, ap = 9.63%      (TP = 29, FP = 158) 
+class_id = 1, name = SEQ_ERROR1, ap = 75.90%     (TP = 236, FP = 105) 
+class_id = 2, name = SEQ_ERROR2, ap = 76.32%     (TP = 929, FP = 334) 
+class_id = 3, name = SEQ_ERRORN1, ap = 87.98%            (TP = 205, FP = 68) 
+class_id = 4, name = SEQ_ERRORN2, ap = 93.59%            (TP = 928, FP = 152) 
+class_id = 5, name = SEQ_ERRORC1, ap = 74.38%            (TP = 62, FP = 33) 
+class_id = 6, name = SEQ_ERRORC2, ap = 90.46%            (TP = 259, FP = 72) 
+
+ for conf_thresh = 0.25, precision = 0.74, recall = 0.78, F1-score = 0.76 
+ for conf_thresh = 0.25, TP = 2648, FP = 922, FN = 730, average IoU = 69.61 % 
+
+ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall 
+ mean average precision (mAP@0.50) = 0.726073, or 72.61 % 
+Total Detection Time: 90 Seconds
+
+Set -points flag:
+ `-points 101` for MS COCO 
+ `-points 11` for PascalVOC 2007 (uncomment `difficult` in voc.data) 
+ `-points 0` (AUC) for ImageNet, PascalVOC 2010-2012, your custom dataset
