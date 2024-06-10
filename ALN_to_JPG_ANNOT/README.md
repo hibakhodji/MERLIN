@@ -13,5 +13,5 @@
 NOTES: 
 
 * The generated YOLO annotations (bounding boxes) can be checked using https://github.com/ivder/YoloBBoxChecker
-* Training, validation, and test data can be found in ../darknet/data/train.txt, ../darknet/data/valid.txt, and ../darknet/data/test.txt, and retrieved from https://zenodo.org/records/6637475#.ZCV9ai0RppQ
+* Training, validation, and test data can be found in ../data/train.txt, ../data/valid.txt, and ../data/test.txt, and retrieved from https://zenodo.org/records/6637475#.ZCV9ai0RppQ
 * You might wanna replace nawk with awk in aln2jpg/convert_aln.py
