@@ -8,7 +8,7 @@
 
 5 - annot_gen.py $1.jpg $1.txt ./temp/$1.xml --> produces annotations in PASCAL VOC format. (This step makes it easier to create YOLO annotations using the txt files that we generated using annot_error: annotating objects in images is usually handled manually using a labelling tool. In this case, however, it is difficult given the number of errors in a single alignment. Since we already have txt annotation files we decided to automatically generate our YOLO annotations, and this is where PASCAL VOC comes in. Unlike YOLO format, PASCAL VOC is simple to read and understand.)
 
-6 - python3 convert2Yolo/example.py ... --> converts PASCAL VOC format to YOLO format.
+6 - python3 convert2Yolo/example.py ... --> converts PASCAL VOC format to YOLO format. (from https://github.com/ssaru/convert2Yolo)
 
 NOTES: 
 
